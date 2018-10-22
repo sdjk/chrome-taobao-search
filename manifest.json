@@ -1,0 +1,23 @@
+
+{ 
+    "name": "淘宝搜索", 
+    "description": "右键淘宝搜索", 
+    "version": "0.6", 
+    "permissions": ["contextMenus", "tabs"], 
+    "background": { 
+        "scripts": ["menu.js"] 
+    }, 
+
+    "manifest_version": 2,
+
+    "icons":{
+        "16": "tao16.png",
+        "48": "tao48.png",
+        "128": "tao128.png"
+    },
+
+    "browser_action": {
+
+    }
+
+} 
